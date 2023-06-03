@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
     <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
   <div className="container">
-    <a className="navbar-brand" href="#">Navbar</a>
+    <button className="navbar-brand">Navbar</button>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -15,7 +15,7 @@ export default function Navbar() {
           <button className="nav-link active" aria-current="page">Home</button>
         </li>
         <li className="nav-item">
-          <button className="nav-link">Link</button>
+          <button className="nav-link">About</button>
         </li>
         <li className="nav-item dropdown">
           <button className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
