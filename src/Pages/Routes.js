@@ -12,17 +12,20 @@ import NoPage from './NoPageFound'
 export default function Routers() {
   return (
     <>
-    <Header />
-  <main>
+   
+  
   <BrowserRouter>
+  <Header />
+  <main>
     <Routes>
    <Route path='/' element={<Home />} />
    <Route path='/about' element={<About />} />
    <Route path='/contact' element={<Contact />} />
    <Route path='*' element={<NoPage />} />
     </Routes>
+    </main>
     </BrowserRouter>
-  </main>
+  
   <Footer />
     
     
