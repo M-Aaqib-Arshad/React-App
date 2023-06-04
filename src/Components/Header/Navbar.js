@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -15,7 +16,10 @@ export default function Navbar() {
           <button className="nav-link active" aria-current="page">Home</button>
         </li>
         <li className="nav-item">
-          <button className="nav-link">Link</button>
+          <button className="nav-link">About</button>
+        </li>
+        <li className="nav-item">
+          <button className="nav-link">Contact</button>
         </li>
         <li className="nav-item dropdown">
           <button className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
