@@ -7,18 +7,14 @@ import Header from'./Components/Header';
 import Footer from './Components/Footer';
 
 //Pages
-import Home from './Pages/Home'
+import Routes from './Pages/Routes';
+
+
 
 function App() {
   return (
     <>
-     <header>
-     <Header />
-     </header>
-     <main>
-     <Home />
-     </main>
-     <Footer />
+   <Routes />
     </>
   );
 }
